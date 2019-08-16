@@ -1,3 +1,7 @@
+/*
+	npm install express body-parser mongodb mongoose cors
+*/
+
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
