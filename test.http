@@ -1,0 +1,17 @@
+@link = http://localhost:3000
+###
+POST {{link}}/api/exercise/new-user
+Accept:  */*
+Content-Type: application/x-www-form-urlencoded
+
+username=tttue
+###
+POST {{link}}/api/exercise/add
+Accept:  */*
+Content-Type: application/x-www-form-urlencoded
+
+userId=1&description=1&duration=12&date=1990-01-31
+
+###
+GET {{link}}/api/exercise/log?userId=3&limit=100
+Accept:  */*
