@@ -1,5 +1,12 @@
 /*
-	npm install express body-parser mongodb mongoose cors shortid dotenv
+	npm ln express
+	npm ln mongodb
+	npm ln mongoose
+	npm ln cors
+	npm ln dotenv
+	npm ln path
+	npm ln body-parser
+	nsi shortid
 */
 
 const express = require('express')
